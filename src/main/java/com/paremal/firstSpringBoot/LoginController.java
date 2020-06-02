@@ -17,8 +17,8 @@ public class LoginController {
 	}
 	
 	@RequestMapping (value="/login" , method = RequestMethod.POST)
-	public String loginMessage1() {
-		//model.put("name", name);
+	public String loginMessage1(@RequestParam String name,ModelMap model) {
+		model.put("name", name);
 		return "welcome";
 	}
 
