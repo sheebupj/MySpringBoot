@@ -7,11 +7,8 @@
 <title>myjsp</title>
 </head>
 <body>
-<form method="post">
-Name : <input type="text" name="name"/>
-Passowrd : <input type="password" name="password"/>
-<input type="submit">
-</form>
+
+Welcome ${name}!
 
 </body>
 </html>
