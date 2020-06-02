@@ -10,9 +10,7 @@
 
 
 
-Welcome ${name}!
-<br>
-<a href="/showlist">click here to see list </a>
+ ${list}!
 
 </body>
 </html>
